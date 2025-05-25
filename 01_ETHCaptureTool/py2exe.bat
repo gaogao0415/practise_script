@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --hidden-import pkg_about --hidden-import libpcap --collect-all libpcap --collect-all pkg_about Eth_CaptureTool.py  
